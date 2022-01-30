@@ -31,7 +31,7 @@ const users_routes_config_1 = require("./users/users.routes.config");
 const debug_1 = __importDefault(require("debug"));
 const app = (0, express_1.default)();
 const server = http.createServer(app);
-const port = 3000;
+const port = 5001;
 const routes = [];
 const debugLog = (0, debug_1.default)('app');
 app.use(express_1.default.json());
